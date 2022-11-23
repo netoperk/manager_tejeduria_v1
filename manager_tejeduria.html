@@ -9,4 +9,38 @@
 <body>
     <h1>INICIAL</h1>
 </body>
+<script src="../../gestor/lib/vue/vue.js" type="text/javascript"></script>
+<script src="../../gestor/lib/vue/vuex.js" type="text/javascript"></script>
+<script src="../../gestor/lib/vue/axios.js" type="text/javascript"></script>
 </html>
+<script>
+   
+   
+    const store = new Vuex.Store({
+        state: {            
+           
+        }
+    });    
+    var app = new Vue({
+        el: '#App',
+        store: store,
+        data:{            
+                           
+        },
+        mounted: function() {    
+            /*this.getDatos_texman();              
+            this.getHora();  
+            this.getParos();
+            this.intervall = setInterval(()=>{
+               this.getHora();
+               this.getDatos_texman();
+               this.getParos();
+            },20000);    */
+
+            console.log("Mounted")
+            
+        },
+        methods:{
+        }
+    })
+</script>
