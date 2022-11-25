@@ -21,6 +21,7 @@
     text-align: center;
     min-width: 50px;
     min-height: 40px;
+    cursor:pointer;
 }
 .pasillo{
     width: 100%;
@@ -39,4 +40,18 @@
 .inactiva{
     background:#6e7e85;
     color:white;    
+}
+
+.found {
+    border: 4px #ff00e1 solid;    
+    animation: blink 1s;
+    animation-iteration-count: 10, 0, infinite;
+    border-radius: 1px;    
+}
+
+@keyframes blink { 50% { border-color:#ccc; }  }
+
+.modal-header{
+    background-color: #00509d;
+    color:white
 }

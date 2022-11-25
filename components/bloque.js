@@ -2,7 +2,7 @@ Vue.component('bloque',{
     props:['block','datos'],
 	data: function(){
 		return{
-			
+
 		}
 	},
 	mounted: async function(){
@@ -18,9 +18,9 @@ Vue.component('bloque',{
     },
     template:`
                 <div class="bloque">
-                    <div class="pos" v-for="item in datos" >
+                    <div class="pos" v-for="item in datos" :class="['item_'+item.NUM_MAQ,(item.BUSCAR==1)? 'blink' : '']" data-bs-toggle="modal" data-bs-target="#info_maq" @click="$store.state.info_maq = item">
                         <table width="100%" v-if="item.NUM_MAQ > 0" >
-                                <tr >
+                                <tr>
                                     <td colspan="2" class="num_maq text-center">{{item.NUM_MAQ}}</td>
                                 </tr>
                                 <tr>
