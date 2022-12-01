@@ -4,3 +4,12 @@
 Stack trace:
 #0 {main}
   thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 30
+[01-Dec-2022 19:39:32 UTC] PHP Notice:  Undefined index: num_maq in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 66
+[01-Dec-2022 19:39:32 UTC] PHP Notice:  Undefined variable: sql in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 81
+[01-Dec-2022 19:39:51 UTC] PHP Notice:  Undefined index: num_maq in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 66
+[01-Dec-2022 19:39:51 UTC] PHP Notice:  Undefined variable: sql in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 81
+[01-Dec-2022 19:39:54 UTC] PHP Notice:  Undefined index: num_maq in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 66
+[01-Dec-2022 19:39:54 UTC] PHP Notice:  Undefined variable: sql in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 81
+[01-Dec-2022 19:40:00 UTC] PHP Notice:  Undefined index: num_maq in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 66
+[01-Dec-2022 19:40:00 UTC] PHP Notice:  Undefined variable: sql in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 81
+[01-Dec-2022 19:40:31 UTC] PHP Notice:  Undefined variable: sql in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 81

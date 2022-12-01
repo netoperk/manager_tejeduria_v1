@@ -14,11 +14,14 @@ Vue.component('bloque',{
                 const ip = logo.split('.');
                 return ip[3];
             }
-        },        
+        },   
+        cargarMaq(item){
+            this.$store.state.info_maq = item;
+        }     
     },
     template:`
                 <div class="bloque">
-                    <div class="pos" v-for="item in datos" :class="['item_'+item.NUM_MAQ,(item.BUSCAR==1)? 'blink' : '']" data-bs-toggle="modal" data-bs-target="#info_maq" @click="$store.state.info_maq = item">
+                    <div class="pos" v-for="item in datos" :class="['item_'+item.NUM_MAQ,(item.BUSCAR==1)? 'blink' : '']"  data-bs-toggle="modal" data-bs-target="#info_maq" @click="cargarMaq(item)">
                         <table width="100%" v-if="item.NUM_MAQ > 0" >
                                 <tr>
                                     <td colspan="2" class="num_maq text-center">{{item.NUM_MAQ}}</td>

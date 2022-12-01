@@ -14,20 +14,20 @@
     <div id="App">
             <nav_bar></nav_bar>
             <div class="layout">
-                <bloque :block="10" :datos="getBloque(10)"></bloque>
-                <bloque :block="9"  :datos="getBloque(9)"></bloque>
+                    <bloque :block="10" :datos="getBloque(10)"></bloque>
+                    <bloque :block="9"  :datos="getBloque(9)"></bloque>
                 <div class="pasillo"></div>
-                <bloque :block="8" :datos="getBloque(8)"></bloque>
-                <bloque :block="7" :datos="getBloque(7)"></bloque>
+                    <bloque :block="8" :datos="getBloque(8)"></bloque>
+                    <bloque :block="7" :datos="getBloque(7)"></bloque>
                 <div class="pasillo"></div>
-                <bloque :block="6" :datos="getBloque(6)"></bloque>
-                <bloque :block="5" :datos="getBloque(5)"></bloque>
+                    <bloque :block="6" :datos="getBloque(6)"></bloque>
+                    <bloque :block="5" :datos="getBloque(5)"></bloque>
                 <div class="pasillo"></div>
-                <bloque :block="4" :datos="getBloque(4)"></bloque>
-                <bloque :block="3" :datos="getBloque(3)"></bloque>
+                    <bloque :block="4" :datos="getBloque(4)"></bloque>
+                    <bloque :block="3" :datos="getBloque(3)"></bloque>
                 <div class="pasillo"></div>
-                <bloque :block="2" :datos="getBloque(2)"></bloque>
-                <bloque :block="1" :datos="getBloque(1)"></bloque>                
+                    <bloque :block="2" :datos="getBloque(2)"></bloque>
+                    <bloque :block="1" :datos="getBloque(1)"></bloque>                
             </div>     
             <info_maq></info_maq>  
     </div>
@@ -40,13 +40,14 @@
 <script src="components/nav_bar.js" type="text/javascript"></script>
 <script src="components/bloque.js" type="text/javascript"></script>
 <script src="components/info_maq.js" type="text/javascript"></script>
+<script src="components/info_tablet.js" type="text/javascript"></script>
 </html>
 <script>
    
    
     const store = new Vuex.Store({
         state: {            
-           info_maq:[]
+           info_maq:[],
         }
     });    
     var app = new Vue({
@@ -65,7 +66,7 @@
                this.getParos();
             },20000);    */
 
-            console.log("Mounted")
+           //console.log("Mounted")
             this.getDatos();
             
         },
@@ -73,7 +74,7 @@
             async getDatos(){
                 await axios.get('modulos/mod_manager_tejeduria.php?flag=1').then(ress => {		
                     this.datos = ress.data;
-                    console.log(this.datos)
+                    //console.log(this.datos)
                 }).catch(e => {
                     console.log(e)
                 }); 
@@ -82,7 +83,7 @@
                 const datos_bloque = this.datos.filter(function(arr) {/*filtro unicamente las cabeceras*/
                         return (arr.BLOQUE == blk);
                     });   
-                console.log("DATOS",datos_bloque);
+                //console.log("DATOS",datos_bloque);
                 return datos_bloque;
             },
         }
