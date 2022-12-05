@@ -9,6 +9,8 @@ header("Access-Control-Allow-Headers: Content-Type, Depth, User-Agent, X-File-Si
 ini_set('memory_limit', '2048M');
 ini_set('max_execution_time', '5600');
 
+require_once '../Phpmodbus/ModbusMaster.php';
+
 $banco = "PRODPTCA";
 include "ora_ado.php";
 
@@ -27,6 +29,14 @@ if ($http_request == 'GET') {
     switch ($flag) {
         
         case 1://CONFIGURACION
+            $sq_periodo = "SELECT PERIODO_PRODUCAO,AREA_PERIODO, TO_CHAR(DATA_INI_PERIODO, 'DD MON, YYYY') DATA_INICIAL, TO_CHAR(DATA_FIM_PERIODO, 'DD MON, YYYY') DATA_FINAL
+                            FROM pette.PCPC_010 WHERE (AREA_PERIODO = '4') AND (CODIGO_EMPRESA = '1') and situacao_periodo in ('0')
+                    and (data_fim_periodo >= to_char(sysdate, 'DD/Mon/YY') and data_ini_periodo <= to_char(sysdate, 'DD/Mon/YY'))";
+
+            $row_periodo = db_query($sq_periodo, "single");
+
+            $periodo_prod = $row_periodo['PERIODO_PRODUCAO']-1;
+
             $sql = "SELECT 
                         l.bloque, l.pos, l.num_maq,
                         a.ip_logo, a.puerto_logo,
@@ -36,6 +46,14 @@ if ($http_request == 'GET') {
                         v.subgru_estrutura, v.item_estrutura,
                         v.situacao, v.situacion,
                         v.eficiencia,v.velocidade,v.voltas_turno,
+                        (SELECT sum(p10.qtde_rolos_prog) - sum(p10.qtde_rolos_prod)
+                            FROM
+                                pette.pcpt_010 p10
+                            WHERE
+                                    p10.periodo_producao >= '$periodo_prod'
+                                AND p10.cod_cancelamento = 0
+                                AND p10.qtde_rolos_prod < p10.qtde_rolos_prog
+                                AND p10.numero_maquina = l.num_maq) etiquetas,
                         0 buscar
                     from teje_logo.layout l,
                         TEJE_LOGO.asignacion_logo a,
@@ -81,6 +99,44 @@ if ($http_request == 'GET') {
             $rows = db_query_assoc($sq_tab,"single");
 
             echo json_encode($rows);
+        break;
+        case 3:
+            $ip_logo = $_GET['ip_logo'];
+            $modbus 	= new ModbusMaster("$ip_logo", "TCP");
+            try {
+                $recData = $modbus->readMultipleRegisters(255, 0, 32, 0, 99, "INT");
+            }
+            catch (Exception $e) {         
+                $result = "error_manager.log_error ('".$e." LOGO IP:' || ".$ip_logo.",'')";
+                $resp->setReturnValue($result);
+                return $resp;   
+            }
+
+            $values 	= array_chunk($recData, 2);
+            
+            $datos=array();  
+            $sql = "select num_maquina,puerto_logo from teje_logo.asignacion_logo where ip_logo ='$ip_logo'";        
+            $rows = db_query($sql,"array");
+            
+            $nrows = count($rows);
+
+            for($n = 0; $n < $nrows; $n++){
+
+                $puerto = $rows[$n]['PUERTO_LOGO'];
+
+                $puertos    = array(0=>1,1=>3,2=>5,3=>7,4=>9,5=>11,6=>13,7=>15,8=>17,9=>19,10=>21,11=>23,12=>25,13=>27,14=>29,15=>31,16=>33);
+                $port       = $puertos[$puerto - 1];
+                $vueltas 	= PhpType::bytes2signedInt($values); 
+
+                array_push($datos,array(
+                                        "maq"=>$rows[$n]['NUM_MAQUINA'],
+                                        "puerto"=>$puerto,
+                                        "ordem_prod"=>$vueltas)
+                );      
+
+            }
+            
+            echo json_encode($data);
         break;
     }
 }//END GET

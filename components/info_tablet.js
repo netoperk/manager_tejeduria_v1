@@ -4,7 +4,8 @@ Vue.component('info_tablet',{
 		return{
             datos:[],
             utilizacion:0,
-            eficiencia:0
+            eficiencia:0,
+            vueltas_esp:0
 		}
 	},
 	mounted: function(){        
@@ -24,6 +25,7 @@ Vue.component('info_tablet',{
                 this.datos = ress.data;
                 this.utilizacion = (this.datos.MINUTOS_TRANS > 0)? (((this.datos.MINUTOS_TRANS - this.datos.MINUTOS_PARO)/this.datos.MINUTOS_TRANS)*100).toFixed(0) : 0;
                 this.eficiencia = (this.datos.NUM_VUELTAS > 0 && this.$store.state.info_maq.VELOCIDADE > 0)? ((this.datos.NUM_VUELTAS / (this.$store.state.info_maq.VELOCIDADE * this.datos.MINUTOS_TRANS))*100).toFixed(0) :0;
+                this.vueltas_esp = (this.datos.MINUTOS_TRANS > 0)? (this.$store.state.info_maq.VELOCIDADE * this.datos.MINUTOS_TRANS).toFixed(2) :0;
             }).catch(e => {
                 console.log(e)
             }); 
@@ -50,6 +52,9 @@ Vue.component('info_tablet',{
                     </tr>
                     <tr>
                         <th>EFICIENCIA:</th><td><input type="text" class="form-control form-control-sm" :value="this.eficiencia"></td>
+                    </tr>                    
+                    <tr>
+                        <th>VUELTAS ESPERADAS:</th><td><input type="text" class="form-control form-control-sm" :value="this.vueltas_esp"></td>
                     </tr>  
                     <tr>
                         <td colspan="2" class="text-center">

@@ -23,7 +23,7 @@ Vue.component('info_maq',{
                         <div class="modal-body">
                             <div class="row">   
                                 <div class="col-sm-3">                                      
-                                    <table width="100%" class="table table-bordered" border="1">
+                                    <table width="100%" border="1">
                                      <tr>
                                             <th colspan="2" style="background:#fb8500">INFORMACIÓN DE MÁQUINA</th>
                                         </tr>    
@@ -43,13 +43,22 @@ Vue.component('info_maq',{
                                             <th>EFIC. FT:</th><td>{{$store.state.info_maq.EFICIENCIA}}</td>
                                         </tr>
                                         <tr>
-                                            <th>SITUACIÓN:</th><td><span class="badge rounded-pill bg-success" v-if="$store.state.info_maq.SITUACION=='ACTIVA'">{{$store.state.info_maq.SITUACION}}</span><span class="badge rounded-pill bg-danger" v-else>{{$store.state.info_maq.SITUACION}}</span></td>
+                                            <th>VUELTAS TURNO:</th><td>{{$store.state.info_maq.VOLTAS_TURNO}}</td>
                                         </tr>
+                                        <tr>
+                                            <th>ROLLOS PENDIENTES:</th><td>{{$store.state.info_maq.ETIQUETAS}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>SITUACIÓN:</th><td>
+                                            <button type="button" class="btn btn-success btn-sm" v-if="$store.state.info_maq.ETIQUETAS > 0">ACTIVA</button>
+                                            <button type="button" class="btn btn-secondary btn-sm" v-else>SIN.PROG</button>
+                                            </td>
+                                        </tr>                                       
                                     </table>
                                 </div>
                                 <div class="col-sm-3">
                                     <table width="100%" border="1">
-                                     <tr>
+                                        <tr>
                                             <th colspan="2" style="background:#ef476f">UBICACION MÁQUINA</th>
                                         </tr>  
                                         <tr>
@@ -59,25 +68,38 @@ Vue.component('info_maq',{
                                             <th>BLOQUE:</th><td><input type="text" class="form-control form-control-sm" v-model="$store.state.info_maq.BLOQUE"></td>
                                         </tr>
                                         <tr>
-                                            <th>POSICIÓN:</th><td><input type="text" class="form-control form-control-sm" v-model="$store.state.info_maq.POS"></td>
+                                            <th>POSICIÓN:</th><td>                                                
+                                                <div class="input-group input-group-sm">
+                                                    <input type="text" class="form-control" v-model="$store.state.info_maq.POS">
+                                                    <button class="btn btn-outline-primary" type="button">Actualizar Posición</button>
+                                                </div>
+                                            </td>
+                                        </tr>                                        
+                                    </table>
+                                    <table width="100%" border="1">
+                                        <tr>
+                                            <th colspan="2" style="background:#ef476f">CONFIGURACIÓN  DE LOGO</th>
                                         </tr>
+                                        
                                         <tr>
                                             <th>IP-LOGO:</th><td><input type="text" class="form-control form-control-sm" v-model="$store.state.info_maq.IP_LOGO"></td>
                                         </tr>
                                         <tr>
-                                            <th>PUERTO:</th><td><input type="text" class="form-control form-control-sm" v-model="$store.state.info_maq.PUERTO_LOGO"></td>
-                                        </tr>  
-                                        <tr>
-                                            <td colspan="2" class="text-center">
-                                            <button type="button" class="btn btn-secondary btn-sm">Eliminar Pos.</button>
-                                                <button type="button" class="btn btn-primary btn-sm">Actualizar Pos.</button>
-                                                <button type="button" class="btn btn-success btn-sm">Actualizar Logo</button>
+                                            <th>PUERTO:</th><td>
+                                                <div class="input-group input-group-sm">
+                                                    <input type="text" class="form-control" v-model="$store.state.info_maq.PUERTO_LOGO">
+                                                    <button class="btn btn-outline-primary" type="button">Actualizar Logo</button>
+                                                    <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                                                </div>
                                             </td>
                                         </tr>                                          
                                     </table>
                                 </div>
                                 <div class="col-sm-3">
                                     <info_tablet :ip="$store.state.info_maq.IP_LOGO" :num_maq="$store.state.info_maq.NUM_MAQ"></info_tablet>
+                                </div>
+                                <div class="col-sm-3">
+                                    <datos_logo :ip="$store.state.info_maq.IP_LOGO"></datos_logo>
                                 </div>
                             </div>
                         </div>

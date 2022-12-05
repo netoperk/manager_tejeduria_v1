@@ -55,3 +55,6 @@
     background-color: #00509d;
     color:white
 }
+ table th, td{
+    border:1px solid #ccc;
+ }

@@ -28,7 +28,7 @@ Vue.component('bloque',{
                                 </tr>
                                 <tr>
                                     <td :style="{'background-color':item.IP_COLOR,'font-weight':'bold'}">{{ getNumLogo(item.IP_LOGO) }}</td>
-                                    <td :class="[(item.SITUACAO == 4)? 'activa':'inactiva']" >{{ item.PUERTO_LOGO }}</td>
+                                    <td :class="[(item.ETIQUETAS > 0)? 'activa':'inactiva']" >{{ item.PUERTO_LOGO }}</td>
                                 </tr>
                             </tr>
                         </table>                                                
