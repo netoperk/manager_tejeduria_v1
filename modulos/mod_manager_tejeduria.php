@@ -107,15 +107,14 @@ if ($http_request == 'GET') {
                 $recData = $modbus->readMultipleRegisters(255, 0, 32, 0, 99, "INT");
             }
             catch (Exception $e) {         
-                $result = "error_manager.log_error ('".$e." LOGO IP:' || ".$ip_logo.",'')";
-                $resp->setReturnValue($result);
-                return $resp;   
+                $result = "error_manager.log_error ('".$e." LOGO IP:' || ".$ip_logo.",'')";            
+               echo '0';   
             }
 
             $values 	= array_chunk($recData, 2);
             
             $datos=array();  
-            $sql = "select num_maquina,puerto_logo from teje_logo.asignacion_logo where ip_logo ='$ip_logo'";        
+            $sql = "SELECT num_maquina,puerto_logo from teje_logo.asignacion_logo where ip_logo ='$ip_logo'";        
             $rows = db_query($sql,"array");
             
             $nrows = count($rows);
@@ -126,17 +125,17 @@ if ($http_request == 'GET') {
 
                 $puertos    = array(0=>1,1=>3,2=>5,3=>7,4=>9,5=>11,6=>13,7=>15,8=>17,9=>19,10=>21,11=>23,12=>25,13=>27,14=>29,15=>31,16=>33);
                 $port       = $puertos[$puerto - 1];
-                $vueltas 	= PhpType::bytes2signedInt($values); 
+                $vueltas 	= PhpType::bytes2signedInt($values[$port]); 
 
                 array_push($datos,array(
                                         "maq"=>$rows[$n]['NUM_MAQUINA'],
                                         "puerto"=>$puerto,
-                                        "ordem_prod"=>$vueltas)
+                                        "vueltas"=>$vueltas)
                 );      
 
             }
             
-            echo json_encode($data);
+            echo json_encode($datos);
         break;
     }
 }//END GET

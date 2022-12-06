@@ -10,11 +10,15 @@ Vue.component('info_maq',{
 	},
     
     methods:{
+
+        stopInterval(){
+            clearInterval(this.$store.state.interval_logo);
+        }
         
     },
     template:`
             <div class="modal fade" id="info_maq" tabindex="-1" aria-labelledby="info_maq" aria-hidden="true">
-                <div class="modal-dialog modal-fullscreen modal-fullscreen-sm-down">
+                <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content">
                         <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">INFORMACIÓN DE MÁQUINA #{{$store.state.info_maq.NUM_MAQ}}</h1>
@@ -24,7 +28,7 @@ Vue.component('info_maq',{
                             <div class="row">   
                                 <div class="col-sm-3">                                      
                                     <table width="100%" border="1">
-                                     <tr>
+                                        <tr>
                                             <th colspan="2" style="background:#fb8500">INFORMACIÓN DE MÁQUINA</th>
                                         </tr>    
                                         <tr>
@@ -104,7 +108,7 @@ Vue.component('info_maq',{
                             </div>
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @click="stopInterval()">Close</button>
                         <button type="button" class="btn btn-primary">Send message</button>
                         </div>
                     </div>
