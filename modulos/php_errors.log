@@ -430,3 +430,673 @@ Stack trace:
 #1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
 #2 {main}
   thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[07-Dec-2022 21:13:24 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:24 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[07-Dec-2022 21:13:24 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[07-Dec-2022 21:13:34 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:34 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[07-Dec-2022 21:13:34 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[07-Dec-2022 21:13:44 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:44 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[07-Dec-2022 21:13:44 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[07-Dec-2022 21:13:54 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:54 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:13:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[07-Dec-2022 21:13:54 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[07-Dec-2022 21:14:04 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:14:04 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[07-Dec-2022 21:14:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[07-Dec-2022 21:14:04 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[10-Jan-2023 17:11:53 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[10-Jan-2023 17:11:53 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[10-Jan-2023 17:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[10-Jan-2023 17:11:53 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 14:12:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 257
+[12-Jan-2023 14:13:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 257
+[12-Jan-2023 14:13:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 257
+[12-Jan-2023 14:15:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 257
+[12-Jan-2023 14:15:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 257
+[12-Jan-2023 14:28:44 UTC] PHP Notice:  Undefined index: flag in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 151
+[12-Jan-2023 15:00:12 UTC] PHP Notice:  Undefined index: flag in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 151
+[12-Jan-2023 15:03:10 UTC] PHP Notice:  Undefined index: flag in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 151
+[12-Jan-2023 15:04:06 UTC] PHP Notice:  Undefined index: flag in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 151
+[12-Jan-2023 15:04:40 UTC] PHP Notice:  Undefined index: flag in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 151
+[12-Jan-2023 17:18:55 UTC] PHP Notice:  Undefined index: flag in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 151
+[12-Jan-2023 17:23:52 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:23:52 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:23:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:23:52 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:24:54 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:24:54 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:24:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:24:54 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:25:32 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:25:32 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:25:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:25:32 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:25:42 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:25:42 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:25:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:25:42 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:25:52 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:25:52 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:25:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:25:52 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:26:02 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:02 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:26:02 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:26:12 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:12 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:26:12 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:26:22 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:22 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:26:22 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:26:32 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:32 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:26:32 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:26:42 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:42 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:26:42 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:26:52 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:52 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:26:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:26:52 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:27:02 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:02 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:27:02 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:27:12 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:12 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:27:12 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:27:22 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:22 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:27:22 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:27:32 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:32 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:27:32 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:27:42 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:42 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:27:42 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:27:52 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:52 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:27:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:27:52 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:28:02 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:02 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:28:02 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:28:12 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:12 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:28:12 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:28:22 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:22 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:28:22 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:28:32 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:32 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:28:32 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:28:42 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:42 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:28:42 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:28:52 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:52 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:28:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:28:52 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:29:02 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:02 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:29:02 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:29:12 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:12 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:29:12 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:29:22 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:22 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:29:22 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:29:32 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:32 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:29:32 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:29:42 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:42 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:29:42 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:29:52 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:52 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:29:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:29:52 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:30:02 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:30:02 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:30:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:30:02 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:30:12 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:30:12 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:30:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:30:12 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:30:22 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:30:22 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:30:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:30:22 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:33:07 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:07 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:33:07 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:33:17 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:17 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:33:17 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:33:20 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:20 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:33:20 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:33:33 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:33 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:33:33 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:33:43 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:43 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:33:43 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:33:53 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:53 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:33:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:33:53 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:34:03 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:03 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:34:03 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:34:13 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:13 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:34:13 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:34:23 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:23 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:34:23 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:34:33 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:33 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:34:33 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:34:43 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:43 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:34:43 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:34:53 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:53 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:34:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:34:53 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:35:03 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:03 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:35:03 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:35:13 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:13 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:35:13 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:35:23 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:23 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:35:23 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:35:37 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:37 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:35:37 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:35:40 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:40 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:35:40 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:35:53 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:53 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:35:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:35:53 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:36:03 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:03 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:36:03 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:36:13 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:13 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:36:13 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:36:23 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:23 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:36:23 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:36:33 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:33 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:36:33 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:36:43 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:43 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:36:43 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:36:53 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:53 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:36:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:36:53 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:37:03 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:03 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:37:03 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:37:13 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:13 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:37:13 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:37:23 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:23 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:37:23 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:37:33 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:33 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:37:33 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:37:43 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:43 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:37:43 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:37:53 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:53 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:37:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:37:53 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:38:03 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:38:03 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:38:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:38:03 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:38:13 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:38:13 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:38:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:38:13 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:38:23 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:38:23 UTC] PHP Warning:  array_chunk() expects parameter 1 to be array, null given in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 114
+[12-Jan-2023 17:38:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 128
+[12-Jan-2023 17:38:23 UTC] PHP Fatal error:  Uncaught Exception: The input data should be an array of 2 or 4 bytes. in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php:205
+Stack trace:
+#0 /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php(66): PhpType::checkData(NULL)
+#1 /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php(128): PhpType::bytes2signedInt(NULL)
+#2 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/Phpmodbus/PhpType.php on line 205
+[12-Jan-2023 17:38:35 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:38:35 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:38:49 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:38:49 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:39:46 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:39:46 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:39:56 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:39:56 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:40:06 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:40:06 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:40:16 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:40:16 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:40:26 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:40:26 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:40:36 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:40:36 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:40:46 UTC] PHP Notice:  Undefined variable: recData in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 113
+[12-Jan-2023 17:40:46 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
+[12-Jan-2023 17:40:58 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 142
+[12-Jan-2023 17:41:08 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 142

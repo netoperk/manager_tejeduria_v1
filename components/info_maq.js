@@ -13,7 +13,80 @@ Vue.component('info_maq',{
 
         stopInterval(){
             clearInterval(this.$store.state.interval_logo);
+        },
+        async actualizarPos(){
+            var v_maq     = this.$store.state.info_maq.NUM_MAQ;
+            var v_bloque  = this.$store.state.info_maq.BLOQUE;
+            var v_pos     = this.$store.state.info_maq.POS;                       
+
+            axios.post('modulos/mod_manager_tejeduria.php',{
+                    maq     : v_maq,
+                    bloque  : v_bloque,
+                    pos     : v_pos,
+                    flag : 1
+                }).then(ress => {                        
+                        if(ress.data === 1){
+                            alert("Posición actualizada");
+                            return false;
+                        }else{                            
+                            alert("Error al intentar actualizar la posición,revise la consola");
+                            console.log(ress.data);
+                            return false;
+                        }
+                }).catch(e => {
+                    console.log(e); 
+                });            
+        },
+        async eliminarLogo(){
+            var v_ip        = this.$store.state.info_maq.IP_LOGO;
+            var v_maq       = this.$store.state.info_maq.NUM_MAQ;
+            var v_port      = this.$store.state.info_maq.PUERTO_LOGO;
+
+            axios.post('modulos/mod_manager_tejeduria.php',{
+                    ip      : v_ip,
+                    maq     : v_maq,
+                    port    : v_port,
+                    flag    : 2
+                }).then(ress => {                        
+                        if(ress.data === 1){
+                            alert("Asignación eliminada correctamente");
+                            return false;
+                        }else{                            
+                            alert("Error al intentar eliminar asignación,revise la consola");
+                            console.log(ress.data);
+                            return false;
+                        }
+                }).catch(e => {
+                    console.log(e); 
+                });
+        },
+        async asignarLogo(){
+            var v_ip        = this.$store.state.info_maq.IP_LOGO;
+            var v_maq       = this.$store.state.info_maq.NUM_MAQ;
+            var v_port      = this.$store.state.info_maq.PUERTO_LOGO;
+
+            axios.post('modulos/mod_manager_tejeduria.php',{
+                    ip      : v_ip,
+                    maq     : v_maq,
+                    port    : v_port,
+                    flag    : 3
+                }).then(ress => {                        
+                        if(ress.data === 1){
+                            alert("Asignación realizada correctamente");
+                            return false;
+                        }else if(ress.data == 2){
+                            alert("Debe eliminar la asignación actual");
+                            return false;
+                        }else{                            
+                            alert("Error al intentar hacer la asignación,revise la consola");
+                            console.log(ress.data);
+                            return false;
+                        }
+                }).catch(e => {
+                    console.log(e); 
+                });
         }
+
         
     },
     template:`
@@ -75,7 +148,7 @@ Vue.component('info_maq',{
                                             <th>POSICIÓN:</th><td>                                                
                                                 <div class="input-group input-group-sm">
                                                     <input type="text" class="form-control" v-model="$store.state.info_maq.POS">
-                                                    <button class="btn btn-outline-primary" type="button">Actualizar Posición</button>
+                                                    <button class="btn btn-outline-primary" type="button" @click="actualizarPos()">Actualizar Posición</button>
                                                 </div>
                                             </td>
                                         </tr>                                        
@@ -93,7 +166,7 @@ Vue.component('info_maq',{
                                                 <div class="input-group input-group-sm">
                                                     <input type="text" class="form-control" v-model="$store.state.info_maq.PUERTO_LOGO">
                                                     <button class="btn btn-outline-primary" type="button">Actualizar Logo</button>
-                                                    <button class="btn btn-outline-danger" type="button">Eliminar</button>
+                                                    <button class="btn btn-outline-danger" type="button" @click="eliminarLogo()">Eliminar</button>
                                                 </div>
                                             </td>
                                         </tr>                                          

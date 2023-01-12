@@ -9,7 +9,7 @@ header("Access-Control-Allow-Headers: Content-Type, Depth, User-Agent, X-File-Si
 ini_set('memory_limit', '2048M');
 ini_set('max_execution_time', '5600');
 
-require_once '../Phpmodbus/ModbusMaster.php';
+include '../Phpmodbus/ModbusMaster.php';
 
 $banco = "PRODPTCA";
 include "ora_ado.php";
@@ -101,6 +101,8 @@ if ($http_request == 'GET') {
             echo json_encode($rows);
         break;
         case 3:
+            $recData = '';
+            $datos = '';
             $ip_logo = $_GET['ip_logo'];
             $modbus 	= new ModbusMaster("$ip_logo", "TCP");
             try {
@@ -110,28 +112,31 @@ if ($http_request == 'GET') {
                 $result = "error_manager.log_error ('".$e." LOGO IP:' || ".$ip_logo.",'')";            
                echo '0';   
             }
+            if($recData){
+                $values 	= array_chunk($recData, 2);
+                
+                
+                $datos=array();  
+                $sql = "SELECT num_maquina,puerto_logo from teje_logo.asignacion_logo where ip_logo ='$ip_logo'";        
+                $rows = db_query($sql,"array");
+                
+                $nrows = count($rows);
 
-            $values 	= array_chunk($recData, 2);
-            
-            $datos=array();  
-            $sql = "SELECT num_maquina,puerto_logo from teje_logo.asignacion_logo where ip_logo ='$ip_logo'";        
-            $rows = db_query($sql,"array");
-            
-            $nrows = count($rows);
+                for($n = 0; $n < $nrows; $n++){
 
-            for($n = 0; $n < $nrows; $n++){
+                    $puerto = $rows[$n]['PUERTO_LOGO'];
 
-                $puerto = $rows[$n]['PUERTO_LOGO'];
+                    $puertos    = array(0=>1,1=>3,2=>5,3=>7,4=>9,5=>11,6=>13,7=>15,8=>17,9=>19,10=>21,11=>23,12=>25,13=>27,14=>29,15=>31,16=>33);
+                    $port       = $puertos[$puerto - 1];
+                    $vueltas 	= PhpType::bytes2signedInt($values[$port]); 
 
-                $puertos    = array(0=>1,1=>3,2=>5,3=>7,4=>9,5=>11,6=>13,7=>15,8=>17,9=>19,10=>21,11=>23,12=>25,13=>27,14=>29,15=>31,16=>33);
-                $port       = $puertos[$puerto - 1];
-                $vueltas 	= PhpType::bytes2signedInt($values[$port]); 
-
-                array_push($datos,array(
-                                        "maq"=>$rows[$n]['NUM_MAQUINA'],
-                                        "puerto"=>$puerto,
-                                        "vueltas"=>$vueltas)
-                );      
+                    array_push($datos,array(
+                                            "maq"=>$rows[$n]['NUM_MAQUINA'],
+                                            "puerto"=>$puerto,
+                                            "vueltas"=>$vueltas,
+                                            "status"=>0)
+                    );  
+                }    
 
             }
             
@@ -145,14 +150,80 @@ if ($http_request == 'POST') {
     $array_data = file_get_contents('php://input');
     $datos = str_replace(array("\r", "\n"), '', $array_data);
     
-    $campos = json_decode($datos, 1);  
+    $campos = json_decode($datos, 1);      
     
     $flag = $campos['flag'];       
     //2022-11-15T12:06
     
     switch ($flag) {
         
-        case 1://GUARDAMOS LAS MAQUINAS DETENIDAS
+        case 1://ACTUALIZAMOS LA POSICIÓN EN EL LAYOUT
+            $maq = $campos['maq'];    
+            $blq = $campos['bloque'];    
+            $pos = $campos['pos'];    
+
+            $squ = "UPDATE teje_logo.layout SET num_maq = $maq WHERE bloque = $blq AND pos = $pos";
+
+            $res = db_query($squ,"sql");
+            if($res == 2){
+                echo "ERROR EN QUERY:".$squ;
+            }else{
+                echo 1;
+            }
+
+
+        break;
+        case 2://ELIMINA LA IP DE LA MAQUINA EN LA ASIGNACIÓN DEL LOGO
+            $ip     = $campos['ip'];    
+            $maq    = $campos['maq'];    
+            $port   = $campos['port'];    
+
+            $squ = "DELETE TEJE_LOGO.asignacion_logo where ip_logo = '$ip' AND puerto_logo = $port and num_maquina = 'T$maq'";
+
+            $res = db_query($squ,"sql");
+            if($res == 2){
+                echo "ERROR EN QUERY:".$squ;
+            }else{
+                echo 1;
+            }
+
+
+        break;
+        case 3://GUARDAR LA ASIGNACIÓN DEL LOGO
+            $ip     = $campos['ip'];    
+            $maq    = $campos['maq'];    
+            $port   = $campos['port'];  
+            
+            $existe = db_query("SELECT 1 FROM teje_logo.asignacion_logo where ip_logo = '$ip' AND puerto_logo = $port","unico");
+            if($existe == 1){
+                $squ = "UPDATE teje_logo.asignacion_logo SET num_maquina = 'T$maq' WHERE ip_logo = '$ip' AND puerto_logo = $port";
+                $resu = db_query($squ,"sql");
+                if($resu == 2){
+                    echo 2;
+                }
+            }else{
+                $sqi  ="INSERT INTO teje_logo.asignacion_logo 
+                            (ip_logo,fecha_registro,ovservacion,num_maquina,puerto_logo)
+                        VALUES ('$ip',sysdate,'','T$maq',$port)";
+                $resi  =db_query($sqi,"sql");
+                if($resi == 2){
+                    echo $sqi;
+                }else{
+                    echo 1;
+                }
+            }
+
+            $squ = "DELETE TEJE_LOGO.asignacion_logo where ip_logo = '$ip' AND puerto_logo = $port and num_maquina = 'T$maq'";
+
+            $res = db_query($squ,"sql");
+            if($res == 2){
+                echo "ERROR EN QUERY:".$squ;
+            }else{
+                echo 1;
+            }
+
+
+        break;
     }
 }//END POST
 
