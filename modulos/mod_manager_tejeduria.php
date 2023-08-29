@@ -142,6 +142,22 @@ if ($http_request == 'GET') {
             
             echo json_encode($datos);
         break;
+        case 4:
+                $puerto         = $_GET['puerto'];
+                $maquina        = $_GET['maquina'];
+                $iplogo         = $_GET['iplogo'];
+                //client.writeRegister(puerto, 0);
+                $modbus 	= new ModbusMaster("$iplogo", "TCP");
+                $data_true = array(0);
+                try {
+                    $recData = $modbus->writeSingleCoil(0, 12288, $data_true);
+                }
+                catch (Exception $e) {         
+                    $result = "error_manager.log_error ('".$e." LOGO IP:' || ".$ip_logo.",'')";            
+                echo '0';   
+                }
+
+        break;
     }
 }//END GET
 

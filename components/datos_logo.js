@@ -60,6 +60,17 @@ Vue.component('datos_logo',{
                 console.log(e)
             }); 
         },
+        async resetPuerto(dato){
+            console.log(dato.puerto,dato.maq,this.ip);
+            await axios.get('modulos/mod_manager_tejeduria.php?flag=4&iplogo='+this.ip+'&maquina='+dato.maq+'&puerto='+dato.puerto).then(ress => {                
+                if(ress.data.length > 0){
+                    console.log("LOGO RESETEADO");
+                    console.log(ress.data);
+                }
+            }).catch(e => {
+                console.log(e)
+            });
+        }
         
     },
     template:`
@@ -74,6 +85,7 @@ Vue.component('datos_logo',{
                         <th>MAQUINA</th>
                         <th>VUELTAS</th>
                         <th>STATUS</th>
+                        <th></th>
                     </tr>
                     <tr v-for="dato in datos" v-if="datos.length > 0">
                         <td>{{dato.puerto}}</td>                        
@@ -82,6 +94,9 @@ Vue.component('datos_logo',{
                         <td class="text-center">
                             <img src="./img/green.gif" height="20" v-if="dato.status == 1">
                             <img src="./img/red.gif" height="20" v-else>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-sm" @click="resetPuerto(dato)">R</button>
                         </td>
                     </tr>
                     <tr v-else>

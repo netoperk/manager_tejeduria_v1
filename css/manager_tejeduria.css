@@ -48,6 +48,21 @@
     animation-iteration-count: 10, 0, infinite;
     border-radius: 1px;    
 }
+.maquinas{
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+}
+.abastecimientos {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+}
+.rollos {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+}
 
 @keyframes blink { 50% { border-color:#ccc; }  }
 
@@ -57,4 +72,13 @@
 }
  table th, td{
     border:1px solid #ccc;
+ }
+
+ .highlight {
+     background-color: #cff27d !important;
+     font-weight: bold;
+ }
+
+ .td_pad{
+    padding:4px
  }

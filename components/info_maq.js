@@ -5,7 +5,7 @@ Vue.component('info_maq',{
 		}
 	},
 	mounted: function(){
-        //console.log("Info Maqq");
+        console.log("Info Maqq");
         
 	},
     

@@ -1100,3 +1100,21 @@ Stack trace:
 [12-Jan-2023 17:40:46 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 141
 [12-Jan-2023 17:40:58 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 142
 [12-Jan-2023 17:41:08 UTC] PHP Notice:  Undefined variable: datos in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 142
+[28-Mar-2023 17:04:40 UTC] PHP Notice:  Undefined index: logo in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 148
+[28-Mar-2023 17:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ModbusMaster::writeRegister() in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php:152
+Stack trace:
+#0 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 152
+[28-Mar-2023 18:47:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ModbusMaster::writeSingleCoil() in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php:153
+Stack trace:
+#0 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 153
+[17-Apr-2023 16:29:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ModbusMaster::writeSingleCoil() in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php:153
+Stack trace:
+#0 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 153
+[17-Apr-2023 16:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ModbusMaster::writeSingleCoil() in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php:153
+Stack trace:
+#0 {main}
+  thrown in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_manager_tejeduria.php on line 153
+[25-Aug-2023 17:41:23 UTC] PHP Notice:  Undefined variable: num_maq in /usr/siip/principal/tejeduria/manager_tejeduria_v1/modulos/mod_control_saldos.php on line 60
